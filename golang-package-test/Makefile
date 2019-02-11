@@ -12,8 +12,8 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/jefferyto/openwrt-golang-package-test-code.git
-PKG_SOURCE_VERSION:=9b88a3f52b9837783a354e7305de0b1d11742fa6
-PKG_SOURCE_DATE:=20190209
+PKG_SOURCE_VERSION:=e043c4690906e35b484717703c483d8a0b87bc92
+PKG_SOURCE_DATE:=20190211
 PKG_MIRROR_HASH:=
 
 PKG_LICENSE:=BSD-3-Clause
@@ -25,7 +25,7 @@ PKG_BUILD_PARALLEL:=1
 PKG_USE_MIPS16:=0
 
 GO_PKG:=github.com/jefferyto/openwrt-golang-package-test-code
-GO_PKG_INSTALL_EXTRA:=extra_file extra_dir
+GO_PKG_INSTALL_EXTRA:=extra/file extra/dir
 GO_PKG_EXCLUDES:=excluded
 
 include $(INCLUDE_DIR)/package.mk
